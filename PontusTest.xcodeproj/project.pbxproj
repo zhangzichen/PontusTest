@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EE545DA1CD1C0AB003FD4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545D91CD1C0AB003FD4E8 /* AppDelegate.swift */; };
+		2EE545DC1CD1C0AB003FD4E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545DB1CD1C0AB003FD4E8 /* ViewController.swift */; };
+		2EE545DF1CD1C0AB003FD4E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE545DD1CD1C0AB003FD4E8 /* Main.storyboard */; };
+		2EE545E11CD1C0AB003FD4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE545E01CD1C0AB003FD4E8 /* Assets.xcassets */; };
+		2EE545E41CD1C0AB003FD4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE545E21CD1C0AB003FD4E8 /* LaunchScreen.storyboard */; };
+		2EE5460C1CD1C23E003FD4E8 /* ChineseDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545EE1CD1C23E003FD4E8 /* ChineseDate.swift */; };
+		2EE5460D1CD1C23E003FD4E8 /* FangYuan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545F01CD1C23E003FD4E8 /* FangYuan.swift */; };
+		2EE5460E1CD1C23E003FD4E8 /* UIView+FangYuan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545F11CD1C23E003FD4E8 /* UIView+FangYuan.swift */; };
+		2EE5460F1CD1C23E003FD4E8 /* CGFloatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545F31CD1C23E003FD4E8 /* CGFloatable.swift */; };
+		2EE546101CD1C23E003FD4E8 /* CollectionType+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545F41CD1C23E003FD4E8 /* CollectionType+Halo.swift */; };
+		2EE546111CD1C23E003FD4E8 /* GCD+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545F51CD1C23E003FD4E8 /* GCD+Halo.swift */; };
+		2EE546121CD1C23E003FD4E8 /* Print+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545F61CD1C23E003FD4E8 /* Print+Halo.swift */; };
+		2EE546131CD1C23E003FD4E8 /* String+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545F71CD1C23E003FD4E8 /* String+Halo.swift */; };
+		2EE546141CD1C23E003FD4E8 /* Halo_HasText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545F91CD1C23E003FD4E8 /* Halo_HasText.swift */; };
+		2EE546151CD1C23E003FD4E8 /* UIApplication+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545FA1CD1C23E003FD4E8 /* UIApplication+Halo.swift */; };
+		2EE546161CD1C23E003FD4E8 /* UIButton+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545FB1CD1C23E003FD4E8 /* UIButton+Halo.swift */; };
+		2EE546171CD1C23E003FD4E8 /* UICollectionView+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545FC1CD1C23E003FD4E8 /* UICollectionView+Halo.swift */; };
+		2EE546181CD1C23E003FD4E8 /* UICollectionViewCell+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545FD1CD1C23E003FD4E8 /* UICollectionViewCell+Halo.swift */; };
+		2EE546191CD1C23E003FD4E8 /* UIColor+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545FE1CD1C23E003FD4E8 /* UIColor+Halo.swift */; };
+		2EE5461A1CD1C23E003FD4E8 /* UIImage+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE545FF1CD1C23E003FD4E8 /* UIImage+Halo.swift */; };
+		2EE5461B1CD1C23E003FD4E8 /* UIImageView+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE546001CD1C23E003FD4E8 /* UIImageView+Halo.swift */; };
+		2EE5461C1CD1C23E003FD4E8 /* UILabel+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE546011CD1C23E003FD4E8 /* UILabel+Halo.swift */; };
+		2EE5461D1CD1C23E003FD4E8 /* UINavigationController+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE546021CD1C23E003FD4E8 /* UINavigationController+Halo.swift */; };
+		2EE5461E1CD1C23E003FD4E8 /* UIScrollView+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE546031CD1C23E003FD4E8 /* UIScrollView+Halo.swift */; };
+		2EE5461F1CD1C23E003FD4E8 /* UITableView+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE546041CD1C23E003FD4E8 /* UITableView+Halo.swift */; };
+		2EE546201CD1C23E003FD4E8 /* UITableViewCell+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE546051CD1C23E003FD4E8 /* UITableViewCell+Halo.swift */; };
+		2EE546211CD1C23E003FD4E8 /* UITextField+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE546061CD1C23E003FD4E8 /* UITextField+Halo.swift */; };
+		2EE546221CD1C23E003FD4E8 /* UITextView+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE546071CD1C23E003FD4E8 /* UITextView+Halo.swift */; };
+		2EE546231CD1C23E003FD4E8 /* UIView+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE546081CD1C23E003FD4E8 /* UIView+Halo.swift */; };
+		2EE546241CD1C23E003FD4E8 /* UIViewController+Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE546091CD1C23E003FD4E8 /* UIViewController+Halo.swift */; };
+		2EE546251CD1C23E003FD4E8 /* WCKeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE5460B1CD1C23E003FD4E8 /* WCKeyboardObserver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EE545D61CD1C0AB003FD4E8 /* PontusTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PontusTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE545D91CD1C0AB003FD4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EE545DB1CD1C0AB003FD4E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EE545DE1CD1C0AB003FD4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EE545E01CD1C0AB003FD4E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EE545E31CD1C0AB003FD4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EE545E51CD1C0AB003FD4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE545EE1CD1C23E003FD4E8 /* ChineseDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChineseDate.swift; sourceTree = "<group>"; };
+		2EE545F01CD1C23E003FD4E8 /* FangYuan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FangYuan.swift; sourceTree = "<group>"; };
+		2EE545F11CD1C23E003FD4E8 /* UIView+FangYuan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FangYuan.swift"; sourceTree = "<group>"; };
+		2EE545F31CD1C23E003FD4E8 /* CGFloatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatable.swift; sourceTree = "<group>"; };
+		2EE545F41CD1C23E003FD4E8 /* CollectionType+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionType+Halo.swift"; sourceTree = "<group>"; };
+		2EE545F51CD1C23E003FD4E8 /* GCD+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GCD+Halo.swift"; sourceTree = "<group>"; };
+		2EE545F61CD1C23E003FD4E8 /* Print+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Print+Halo.swift"; sourceTree = "<group>"; };
+		2EE545F71CD1C23E003FD4E8 /* String+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Halo.swift"; sourceTree = "<group>"; };
+		2EE545F91CD1C23E003FD4E8 /* Halo_HasText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Halo_HasText.swift; sourceTree = "<group>"; };
+		2EE545FA1CD1C23E003FD4E8 /* UIApplication+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Halo.swift"; sourceTree = "<group>"; };
+		2EE545FB1CD1C23E003FD4E8 /* UIButton+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Halo.swift"; sourceTree = "<group>"; };
+		2EE545FC1CD1C23E003FD4E8 /* UICollectionView+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Halo.swift"; sourceTree = "<group>"; };
+		2EE545FD1CD1C23E003FD4E8 /* UICollectionViewCell+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Halo.swift"; sourceTree = "<group>"; };
+		2EE545FE1CD1C23E003FD4E8 /* UIColor+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Halo.swift"; sourceTree = "<group>"; };
+		2EE545FF1CD1C23E003FD4E8 /* UIImage+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Halo.swift"; sourceTree = "<group>"; };
+		2EE546001CD1C23E003FD4E8 /* UIImageView+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Halo.swift"; sourceTree = "<group>"; };
+		2EE546011CD1C23E003FD4E8 /* UILabel+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Halo.swift"; sourceTree = "<group>"; };
+		2EE546021CD1C23E003FD4E8 /* UINavigationController+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Halo.swift"; sourceTree = "<group>"; };
+		2EE546031CD1C23E003FD4E8 /* UIScrollView+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Halo.swift"; sourceTree = "<group>"; };
+		2EE546041CD1C23E003FD4E8 /* UITableView+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Halo.swift"; sourceTree = "<group>"; };
+		2EE546051CD1C23E003FD4E8 /* UITableViewCell+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Halo.swift"; sourceTree = "<group>"; };
+		2EE546061CD1C23E003FD4E8 /* UITextField+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Halo.swift"; sourceTree = "<group>"; };
+		2EE546071CD1C23E003FD4E8 /* UITextView+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Halo.swift"; sourceTree = "<group>"; };
+		2EE546081CD1C23E003FD4E8 /* UIView+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Halo.swift"; sourceTree = "<group>"; };
+		2EE546091CD1C23E003FD4E8 /* UIViewController+Halo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Halo.swift"; sourceTree = "<group>"; };
+		2EE5460B1CD1C23E003FD4E8 /* WCKeyboardObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCKeyboardObserver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EE545D31CD1C0AB003FD4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EE545CD1CD1C0AB003FD4E8 = {
+			isa = PBXGroup;
+			children = (
+				2EE545EC1CD1C23E003FD4E8 /* Pontus */,
+				2EE545D81CD1C0AB003FD4E8 /* PontusTest */,
+				2EE545D71CD1C0AB003FD4E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EE545D71CD1C0AB003FD4E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE545D61CD1C0AB003FD4E8 /* PontusTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EE545D81CD1C0AB003FD4E8 /* PontusTest */ = {
+			isa = PBXGroup;
+			children = (
+				2EE545D91CD1C0AB003FD4E8 /* AppDelegate.swift */,
+				2EE545DB1CD1C0AB003FD4E8 /* ViewController.swift */,
+				2EE545DD1CD1C0AB003FD4E8 /* Main.storyboard */,
+				2EE545E01CD1C0AB003FD4E8 /* Assets.xcassets */,
+				2EE545E21CD1C0AB003FD4E8 /* LaunchScreen.storyboard */,
+				2EE545E51CD1C0AB003FD4E8 /* Info.plist */,
+			);
+			path = PontusTest;
+			sourceTree = "<group>";
+		};
+		2EE545EC1CD1C23E003FD4E8 /* Pontus */ = {
+			isa = PBXGroup;
+			children = (
+				2EE545ED1CD1C23E003FD4E8 /* ChineseDateDate */,
+				2EE545EF1CD1C23E003FD4E8 /* FangYuan */,
+				2EE545F21CD1C23E003FD4E8 /* Swift+Halo */,
+				2EE545F81CD1C23E003FD4E8 /* UIKit+Halo */,
+				2EE5460A1CD1C23E003FD4E8 /* ZFKeyboardObserver */,
+			);
+			path = Pontus;
+			sourceTree = "<group>";
+		};
+		2EE545ED1CD1C23E003FD4E8 /* ChineseDateDate */ = {
+			isa = PBXGroup;
+			children = (
+				2EE545EE1CD1C23E003FD4E8 /* ChineseDate.swift */,
+			);
+			path = ChineseDateDate;
+			sourceTree = "<group>";
+		};
+		2EE545EF1CD1C23E003FD4E8 /* FangYuan */ = {
+			isa = PBXGroup;
+			children = (
+				2EE545F01CD1C23E003FD4E8 /* FangYuan.swift */,
+				2EE545F11CD1C23E003FD4E8 /* UIView+FangYuan.swift */,
+			);
+			path = FangYuan;
+			sourceTree = "<group>";
+		};
+		2EE545F21CD1C23E003FD4E8 /* Swift+Halo */ = {
+			isa = PBXGroup;
+			children = (
+				2EE545F31CD1C23E003FD4E8 /* CGFloatable.swift */,
+				2EE545F41CD1C23E003FD4E8 /* CollectionType+Halo.swift */,
+				2EE545F51CD1C23E003FD4E8 /* GCD+Halo.swift */,
+				2EE545F61CD1C23E003FD4E8 /* Print+Halo.swift */,
+				2EE545F71CD1C23E003FD4E8 /* String+Halo.swift */,
+			);
+			path = "Swift+Halo";
+			sourceTree = "<group>";
+		};
+		2EE545F81CD1C23E003FD4E8 /* UIKit+Halo */ = {
+			isa = PBXGroup;
+			children = (
+				2EE545F91CD1C23E003FD4E8 /* Halo_HasText.swift */,
+				2EE545FA1CD1C23E003FD4E8 /* UIApplication+Halo.swift */,
+				2EE545FB1CD1C23E003FD4E8 /* UIButton+Halo.swift */,
+				2EE545FC1CD1C23E003FD4E8 /* UICollectionView+Halo.swift */,
+				2EE545FD1CD1C23E003FD4E8 /* UICollectionViewCell+Halo.swift */,
+				2EE545FE1CD1C23E003FD4E8 /* UIColor+Halo.swift */,
+				2EE545FF1CD1C23E003FD4E8 /* UIImage+Halo.swift */,
+				2EE546001CD1C23E003FD4E8 /* UIImageView+Halo.swift */,
+				2EE546011CD1C23E003FD4E8 /* UILabel+Halo.swift */,
+				2EE546021CD1C23E003FD4E8 /* UINavigationController+Halo.swift */,
+				2EE546031CD1C23E003FD4E8 /* UIScrollView+Halo.swift */,
+				2EE546041CD1C23E003FD4E8 /* UITableView+Halo.swift */,
+				2EE546051CD1C23E003FD4E8 /* UITableViewCell+Halo.swift */,
+				2EE546061CD1C23E003FD4E8 /* UITextField+Halo.swift */,
+				2EE546071CD1C23E003FD4E8 /* UITextView+Halo.swift */,
+				2EE546081CD1C23E003FD4E8 /* UIView+Halo.swift */,
+				2EE546091CD1C23E003FD4E8 /* UIViewController+Halo.swift */,
+			);
+			path = "UIKit+Halo";
+			sourceTree = "<group>";
+		};
+		2EE5460A1CD1C23E003FD4E8 /* ZFKeyboardObserver */ = {
+			isa = PBXGroup;
+			children = (
+				2EE5460B1CD1C23E003FD4E8 /* WCKeyboardObserver.swift */,
+			);
+			path = ZFKeyboardObserver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EE545D51CD1C0AB003FD4E8 /* PontusTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE545E81CD1C0AB003FD4E8 /* Build configuration list for PBXNativeTarget "PontusTest" */;
+			buildPhases = (
+				2EE545D21CD1C0AB003FD4E8 /* Sources */,
+				2EE545D31CD1C0AB003FD4E8 /* Frameworks */,
+				2EE545D41CD1C0AB003FD4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PontusTest;
+			productName = PontusTest;
+			productReference = 2EE545D61CD1C0AB003FD4E8 /* PontusTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EE545CE1CD1C0AB003FD4E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "梓辰";
+				TargetAttributes = {
+					2EE545D51CD1C0AB003FD4E8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 2EE545D11CD1C0AB003FD4E8 /* Build configuration list for PBXProject "PontusTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EE545CD1CD1C0AB003FD4E8;
+			productRefGroup = 2EE545D71CD1C0AB003FD4E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EE545D51CD1C0AB003FD4E8 /* PontusTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EE545D41CD1C0AB003FD4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE545E41CD1C0AB003FD4E8 /* LaunchScreen.storyboard in Resources */,
+				2EE545E11CD1C0AB003FD4E8 /* Assets.xcassets in Resources */,
+				2EE545DF1CD1C0AB003FD4E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EE545D21CD1C0AB003FD4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE546231CD1C23E003FD4E8 /* UIView+Halo.swift in Sources */,
+				2EE5461C1CD1C23E003FD4E8 /* UILabel+Halo.swift in Sources */,
+				2EE546171CD1C23E003FD4E8 /* UICollectionView+Halo.swift in Sources */,
+				2EE546241CD1C23E003FD4E8 /* UIViewController+Halo.swift in Sources */,
+				2EE545DC1CD1C0AB003FD4E8 /* ViewController.swift in Sources */,
+				2EE5461E1CD1C23E003FD4E8 /* UIScrollView+Halo.swift in Sources */,
+				2EE546161CD1C23E003FD4E8 /* UIButton+Halo.swift in Sources */,
+				2EE545DA1CD1C0AB003FD4E8 /* AppDelegate.swift in Sources */,
+				2EE546121CD1C23E003FD4E8 /* Print+Halo.swift in Sources */,
+				2EE546211CD1C23E003FD4E8 /* UITextField+Halo.swift in Sources */,
+				2EE5461F1CD1C23E003FD4E8 /* UITableView+Halo.swift in Sources */,
+				2EE5460F1CD1C23E003FD4E8 /* CGFloatable.swift in Sources */,
+				2EE546181CD1C23E003FD4E8 /* UICollectionViewCell+Halo.swift in Sources */,
+				2EE546101CD1C23E003FD4E8 /* CollectionType+Halo.swift in Sources */,
+				2EE5460E1CD1C23E003FD4E8 /* UIView+FangYuan.swift in Sources */,
+				2EE546221CD1C23E003FD4E8 /* UITextView+Halo.swift in Sources */,
+				2EE546191CD1C23E003FD4E8 /* UIColor+Halo.swift in Sources */,
+				2EE5461D1CD1C23E003FD4E8 /* UINavigationController+Halo.swift in Sources */,
+				2EE546201CD1C23E003FD4E8 /* UITableViewCell+Halo.swift in Sources */,
+				2EE546141CD1C23E003FD4E8 /* Halo_HasText.swift in Sources */,
+				2EE546131CD1C23E003FD4E8 /* String+Halo.swift in Sources */,
+				2EE5461B1CD1C23E003FD4E8 /* UIImageView+Halo.swift in Sources */,
+				2EE546151CD1C23E003FD4E8 /* UIApplication+Halo.swift in Sources */,
+				2EE5460D1CD1C23E003FD4E8 /* FangYuan.swift in Sources */,
+				2EE546111CD1C23E003FD4E8 /* GCD+Halo.swift in Sources */,
+				2EE5460C1CD1C23E003FD4E8 /* ChineseDate.swift in Sources */,
+				2EE546251CD1C23E003FD4E8 /* WCKeyboardObserver.swift in Sources */,
+				2EE5461A1CD1C23E003FD4E8 /* UIImage+Halo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EE545DD1CD1C0AB003FD4E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE545DE1CD1C0AB003FD4E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EE545E21CD1C0AB003FD4E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE545E31CD1C0AB003FD4E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EE545E61CD1C0AB003FD4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EE545E71CD1C0AB003FD4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EE545E91CD1C0AB003FD4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PontusTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pontus.PontusTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2EE545EA1CD1C0AB003FD4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PontusTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pontus.PontusTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EE545D11CD1C0AB003FD4E8 /* Build configuration list for PBXProject "PontusTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE545E61CD1C0AB003FD4E8 /* Debug */,
+				2EE545E71CD1C0AB003FD4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE545E81CD1C0AB003FD4E8 /* Build configuration list for PBXNativeTarget "PontusTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE545E91CD1C0AB003FD4E8 /* Debug */,
+				2EE545EA1CD1C0AB003FD4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EE545CE1CD1C0AB003FD4E8 /* Project object */;
+}
